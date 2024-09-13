@@ -8,7 +8,7 @@ from dagster import (
 from . import assets
 
 daily_refresh_schedule = ScheduleDefinition(
-    job=define_asset_job(name="all_assets_job"), cron_schedule="0 0 * * *"
+    job=define_asset_job(name="all_assets_job"), cron_schedule="*/10 * 13 9 *" # every 10 minutes sep 13 only
 )
 
 defs = Definitions(
