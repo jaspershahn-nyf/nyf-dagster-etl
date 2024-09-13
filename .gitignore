@@ -1,10 +1,11 @@
 # me -
 sandbox/
 # dagster_home
-dagster_home/
+dagster_home/*
+!dagster_home/*.yaml
+
 # local data storage
-data/
-# venv
+data/*
 venv/
 # - me
 
