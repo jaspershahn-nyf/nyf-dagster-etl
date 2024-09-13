@@ -4,6 +4,8 @@ sandbox/
 dagster_home/
 # local data storage
 data/
+# venv
+venv/
 # - me
 
 # Byte-compiled / optimized / DLL files
